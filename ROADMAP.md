@@ -10,9 +10,9 @@
 - [x] Find related Python code <br> 
 	
 ### Sprint 2: <br>
-- [ ] Making small updates <br> 
-- [ ] Committed at least 6 code changes <br> 
-- [ ] Include comment explaining change <br> 
+- [X] Making small updates <br> 
+- [X] Committed at least 6 code changes <br> 
+- [X] Include comment explaining change <br> 
 
 ### Sprint 3: <br>
 - [ ] Continue coding, refining, and testing code <br> 
