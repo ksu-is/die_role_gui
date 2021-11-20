@@ -1,15 +1,30 @@
 from tkinter import *
 import random
+import tkinter
 
 root = Tk()
 root.geometry("400x400")
+root.title("Allison's Dice Roll Simulator")
 
-l1 = Label(root,font=("Helvetica",260))
+dice = ['dieone.jpg', 'dietwo.jpg', 'diethree.jpg', 'diefour.jpg', 'diefive.jpg', 'diesix.jpg']
+image1 = PhotoImage(Image.open(random.choice(dice)))
+image2 = PhotoImage(Image.open(random.choice(dice)))
+
+label1 = tkinter.Label(root, image=image1)
+label2 = tkinter.Label(root, image=image2)
+
+label1.image = image1
+label2.image = image2
+label1.pack(side=tkinter.LEFT)
+label2.pack(side=tkinter.RIGHT)
 
 def roll():
-    dice = ['\u2680','\u2681','\u2682','\u2683','\u2684','\u2685']
-    l1.config(text=f'{random.choice(dice)}{random.choice(dice)}')
-    l1.pack()
+    image1 = PhotoImage(Image.open(random.choice(dice)))
+    label1.configure(image=image1)
+    label1.image = image1
+    image2  = PhotoImage(Image.open(random.choice(dice)))
+    label2.configure(image=image2)
+    label2.image = image2
 
 b1 = Button(root,text="Roll the Dice!",foreground='blue',command=roll)
 b1.place(x=300,y=0)
