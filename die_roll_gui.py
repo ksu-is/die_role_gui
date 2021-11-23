@@ -4,6 +4,11 @@ from tkinter import *
 
 # import random library to randomly select numbers for the die
 import random
+<<<<<<< Updated upstream
+=======
+import tkinter
+from PIL import Image, ImageTk
+>>>>>>> Stashed changes
 
 # tkinter root window is created
 root = Tk()
