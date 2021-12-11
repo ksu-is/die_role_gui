@@ -16,8 +16,12 @@ def dice_roll():
     label1.configure(bg='gray77')
 
 button = Button(root, text="Click to Roll the Dice!", foreground='green',command=dice_roll)
-button.place(x=300,y=0)
-button.pack()
+button.pack(side=TOP)
+
+
+button1 = Button(root, text="Exit", foreground = 'green', command=root.quit)
+button1.pack(side=BOTTOM)
+
 
 root.mainloop()
 
