@@ -13,3 +13,10 @@ This is much more like the dice roll simulator by Grimreaper9595/Random-Dice-Rol
 This is the photo I used. From pixabay.com. I cropped it into the six sides.
 
 ![DIE](https://user-images.githubusercontent.com/77467121/142742544-03bba6df-22b2-4660-b805-7b9493ca7737.png)
+
+UPDATE : I could not get the photos I cropped from the one above to work. I used unicode to display the dice instead.
+
+ALSO USED: 
+https://www.youtube.com/watch?v=lHOx7oZKiwc
+https://www.askpython.com/python/examples/dice-roll-simulation
+https://www.youtube.com/watch?v=m4hPRJ-UcZk
